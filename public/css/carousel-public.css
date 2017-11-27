@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.carousel.slider.wrap {
+	width: 700px;
+}
+.carousel.slider.container {
+	width: 300px;
+	height: 40px;
+	padding: 0;
+	margin: 0;
+	position: relative !important;
+	float: left;
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+	border: 1px solid black;
+}
+.carousel.slider.handle {
+	width: 30px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	z-index: 99999;
+}
+.carousel.slider.slides {
+	list-style: none;
+}
+.carousel.slider.slide {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.carousel.slider.thumbnail {
+	max-width: none !important;
+	max-height: none !important;
+	box-shadow: none;
+}
